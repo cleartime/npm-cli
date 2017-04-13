@@ -1,0 +1,26 @@
+{
+  "name": "gxx-cli",
+  "version": "0.1.1",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "gxx-cli": "./app.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleartime/npm-cli.git"
+  },
+  "author": "gxx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleartime/npm-cli/issues"
+  },
+  "homepage": "https://github.com/cleartime/npm-cli#readme"
+}
