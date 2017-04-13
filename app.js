@@ -21,15 +21,15 @@ program.parse(process.argv)
 // console.log('heiheihei')
 
 
-// var express = require('express');
-// var app = express();
+var express = require('express');
+var app = express();
 
 
-// app.get('/', function (req, res) {  
-//    res.send('register');
-// });
+app.get('/', function (req, res) {  
+   res.send('register');
+});
  
-// app.listen(3001);
+app.listen(3001);
 
 
 //自动打开chrome浏览器
