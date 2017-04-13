@@ -7,7 +7,9 @@
     "gxx-cli": "./app.js"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "express": "^4.15.2",
+    "opn": "^4.0.2"
   },
   "devDependencies": {},
   "scripts": {

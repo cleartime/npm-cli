@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-console.log(111)
 const program = require('commander')
 program
-    .version('0.0.1') // 可下 -V 查詢版本
+    .version('0.1.2') // 可下 -V 查詢版本
     .description('這裡可以是一個說明')
     .option('-a, --aArgv', '新增a參數','333') // 可下 -a 設定 program.aArgv 為 true
     .option('-b, --bArgv', '新增b參數') // 可下 -b 設定 program.bArgv 為 true
@@ -16,7 +15,23 @@ program
     })
 program.parse(process.argv)
 //列印出各個傳入參數
-console.log('  - %s aArgv', program.aArgv)
-console.log('  - %s bArgv', program.bArgv)
-console.log('  - %s cArgv', program.cArgv)
-console.log('heiheihei')
+// console.log('  - %s aArgv', program.aArgv)
+// console.log('  - %s bArgv', program.bArgv)
+// console.log('  - %s cArgv', program.cArgv)
+// console.log('heiheihei')
+
+
+// var express = require('express');
+// var app = express();
+
+
+// app.get('/', function (req, res) {  
+//    res.send('register');
+// });
+ 
+// app.listen(3001);
+
+
+//自动打开chrome浏览器
+var opn=require('opn');
+opn('http://www.guixiaoxiao.cn/'); 
