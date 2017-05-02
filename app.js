@@ -9,7 +9,7 @@ program
 //定義一個 deploy 命令，並傳入name參數
 program
     .command('deploy <name>')
-    .description('定義一個命3令')
+    .description('定義一個命令')
     .action(function(name) {
         console.log('Deploying "%s"', name)
     })
